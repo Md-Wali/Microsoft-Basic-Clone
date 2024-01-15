@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 54px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    overflow: visible;
+}
+
+
+.navbar-box1{
+    height: 23px;
+    width: 130px;
+    color: grey;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.navbar-box2{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar-box2 span{
+    margin-left: 16px;
+}
+
+a:hover {
+    border-bottom: 1.5px solid black ;
+}
+
+.navbar-box3{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button span:hover{
+    border-bottom: 1.5px solid black ;
+}
+
+header section{
+    height: 54px;
+    background-color: #0067b8;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header section a:hover{
+    border-bottom: 1.5px solid #ffffff ;
+}
+
+.content1{
+    height: 500px;
+    background-image:url("Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create_VP5-1920x600.avif");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.ads1{
+    height: 45%x;
+    width: 390px;
+    word-wrap: break-word;
+    padding-left: 100px;
+}
+
+.ads1h1{
+    height: 80px;
+}
+
+.ads1body{
+    height: 70px;
+    font-size: 16px;
+}
+
+.ads1link{
+    width: 100%;
+    display: flex;
+}
+.ads1link1{
+    width: 135px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #0067b8;
+    color: #ffffff;
+}
+.ads1link1 :hover{
+    border-bottom: none;
+}
+
+
+.ads1link2{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+
+}
+
+.layout1{
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: relative;
+    width: 80%;
+    
+}
+
+.lilogo{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lia{
+    color: #0067b8;
+    text-decoration: underline;
+    text-decoration-color: #0067b8;
+}
+
+.lia :hover{
+    border-bottom: none;
+}
+
+.layoutcontainer1{
+    height: 345px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container1content{
+    height: 100%;
+    width: 20%;
+    
+}
+.C1c1img{
+    height: 130px;
+}
+.C1cbody{
+    padding-top: 16px;
+}
+.C1cbody h2{
+    margin-bottom: 12px;
+}
+.C1clink{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    color: #0067b8;
+}
+
+
+.content2{
+    display: flex;
+    justify-content: space-around;
+}
+.content2body{
+    width: 90%;
+    height: 500px;
+    background-image:url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-AEM-Game-Pass-Ultimate:VP5-1596x600");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.ads2{
+    height: 45%x;
+    width: 390px;
+    word-wrap: break-word;
+    padding-left: 100px;
+    color: #ffffff;
+}
+
+.ads2h1{
+    height: 80px;
+}
+
+.ads2body{
+    height: 70px;
+    font-size: 16px;
+}
+
+.ads2link{
+    width: 100%;
+    display: flex;
+}
+.ads2link1{
+    width: 135px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #0067b8;
+    color: #ffffff;
+}
+.ads2link1 :hover{
+    border-bottom: none;
+}
+
+
+.layoutcontainer2{
+    height: 345px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2content{
+    height: 100%;
+    width: 20%;
+    
+}
+.C2c1img{
+    height: 130px;
+}
+.C2cbody{
+    padding-top: 16px;
+}
+.C2cbody h3{
+    margin-bottom: 12px;
+}
+.C2clink{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    color: #0067b8;
+}
+
+.forbusiness{
+    padding-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 16px;
+}
+
+.socalmedia{
+    height: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socalmedia section{
+    width: 90%;
+    height: 100%;
+    
+}
+.socalmedia section i{
+    height: 100%;
+    font-size: 25px;
+    margin-left: 16px;
+}
+
+.back-to-top{
+    height: 63px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.back-to-top-button{
+    width: 140px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer{
+    background-color: #f2f2f2;
+    color: #616161;
+}
+
+.foot{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    padding-top: 35px;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    
+}
+
+.footlink li{
+    list-style: none;
+    font-size: 11px;
+    height: 32px;
+}
+.footlinkH{
+    margin-bottom: 15px;
+}
+
+.base{
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.base-text{
+    font-size: 11px;
+}
+
+#base-space{
+    padding-left: 40%;
+}
+
+
+
+
+
